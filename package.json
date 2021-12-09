@@ -1,0 +1,20 @@
+{
+  "name": "twitter-api",
+  "version": "1.0.0",
+  "description": "Twiiter API to get tweets",
+  "main": "api.js",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "author": "AKash Kamble",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^2.7.0",
+    "web3-utils": "^1.6.1"
+  }
+}
